@@ -1,0 +1,29 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,landscape,margin=15mm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,array}
+\usepackage[numbers]{natbib}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\hyphenation{ob-se-qui-ous-ness}
+\begin{document}
+\section*{Literature map: review draft}
+Source CSV: 31 papers. Blank cells mean unmarked, not confirmed absence. Categories are multi-label; cell counts must not be summed as unique papers.
+\par\smallskip CSV has no heading for the first group; configured label: Evaluation method. 12 papers have no marked attribute in Evaluation method; blanks remain unmarked.
+\par\smallskip\textbf{Bibliography status:} \IfFileExists{references.bib}{Using references.bib; see the accompanying bibliography audit for provenance and checks.}{CSV-only draft entries; full titles, authors, years and venues require verification.}
+\nocite{10.1109/AIxVR67263.2026.00026,10.1109/BigData62323.2024.10825538,10.1109/ICASSP55912.2026.11460702,10.1109/SCW63240.2024.00017,10.1145/1518701.1519021,10.1145/3660650.3660656,10.1145/3663547.3746319,10.1145/3703155,10.1145/3706599.3719976,10.1145/3715275.3732039,10.1145/3717511.3747073,10.1145/3719160.3736618,10.1145/3742413.3789120,10.1145/3744169.3744194,10.1145/3746027.3755778,10.1145/3772318.3790385,10.1145/3772318.3790934,10.1145/3772318.3791079,10.1145/3772318.3791149,10.1145/3772318.3791233,10.1145/3772318.3791300,10.1145/3772318.3791365,10.1145/3772318.3791851,10.1145/3772318.3791915,10.1145/3772363.3798705,10.1145/3772363.3799334,10.1145/3774904.3792506,10.1145/3776734.3794532,10.1145/3786304.3787879,10.1145/3786335.3813137,10.1145/3788646.3789536}
+\input{map_01_heatmap.tex}
+\input{map_01_citations.tex}
+\clearpage
+\input{map_02_heatmap.tex}
+\input{map_02_citations.tex}
+\clearpage
+\input{map_03_heatmap.tex}
+\input{map_03_citations.tex}
+\clearpage
+\small
+\bibliographystyle{unsrt}
+\IfFileExists{references.bib}{\bibliography{references}}{\bibliography{references_draft}}
+\end{document}

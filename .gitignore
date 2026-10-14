@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+output/**/*.aux
+output/**/*.bbl
+output/**/*.blg
+output/**/*.log
+output/**/*.out
+output/**/*.fls
+output/**/*.fdb_latexmk
+output/**/preview-*.png
+FINDINGS.md
+README.md

@@ -1,0 +1,145 @@
+{
+  "source": "D:\\Summer_Project_2026\\LiteratureMapping\\data\\lit-map 2026s sycophancy - FINAL MAP.csv",
+  "paper_count": 31,
+  "groups": [
+    {
+      "title": "Evaluation method",
+      "attributes": [
+        {
+          "name": "Human - Specialist",
+          "csv_column": 5,
+          "marked_papers": 5
+        },
+        {
+          "name": "Human - Authors",
+          "csv_column": 6,
+          "marked_papers": 8
+        },
+        {
+          "name": "AI - prompted",
+          "csv_column": 7,
+          "marked_papers": 8
+        }
+      ],
+      "unmarked_papers": [
+        "10.1145/1518701.1519021",
+        "10.1145/3706599.3719976",
+        "10.1145/3717511.3747073",
+        "10.1145/3719160.3736618",
+        "10.1145/3772318.3790385",
+        "10.1145/3772318.3790934",
+        "10.1145/3772318.3791079",
+        "10.1145/3772318.3791149",
+        "10.1145/3772318.3791365",
+        "10.1145/3772318.3791851",
+        "10.1145/3772318.3791915",
+        "10.1145/3772363.3798705"
+      ]
+    },
+    {
+      "title": "Definition of sycophancy",
+      "attributes": [
+        {
+          "name": "Hallucination Agreement",
+          "csv_column": 8,
+          "marked_papers": 4
+        },
+        {
+          "name": "Bias Agreement",
+          "csv_column": 9,
+          "marked_papers": 13
+        },
+        {
+          "name": "Obsequiousness",
+          "csv_column": 10,
+          "marked_papers": 7
+        },
+        {
+          "name": "Stance Change",
+          "csv_column": 11,
+          "marked_papers": 8
+        },
+        {
+          "name": "Failure to challenge/trying to get along",
+          "csv_column": 12,
+          "marked_papers": 17
+        }
+      ],
+      "unmarked_papers": []
+    },
+    {
+      "title": "Outcomes",
+      "attributes": [
+        {
+          "name": "None",
+          "csv_column": 13,
+          "marked_papers": 5
+        },
+        {
+          "name": "User opinion",
+          "csv_column": 14,
+          "marked_papers": 11
+        },
+        {
+          "name": "User action",
+          "csv_column": 15,
+          "marked_papers": 8
+        },
+        {
+          "name": "System performance",
+          "csv_column": 16,
+          "marked_papers": 12
+        },
+        {
+          "name": "User performance",
+          "csv_column": 17,
+          "marked_papers": 4
+        }
+      ],
+      "unmarked_papers": []
+    }
+  ],
+  "pairs": [
+    {
+      "file": "map_01",
+      "rows": "Evaluation method",
+      "columns": "Definition of sycophancy"
+    },
+    {
+      "file": "map_02",
+      "rows": "Evaluation method",
+      "columns": "Outcomes"
+    },
+    {
+      "file": "map_03",
+      "rows": "Definition of sycophancy",
+      "columns": "Outcomes"
+    }
+  ],
+  "warnings": [
+    "CSV has no heading for the first group; configured label: Evaluation method.",
+    "12 papers have no marked attribute in Evaluation method; blanks remain unmarked."
+  ],
+  "bibliography": "Using references.bib; see crossref_report.json if supplied for provenance and verification.",
+  "heatmap_scale": "100 * overlap_count / paper_count",
+  "config": {
+    "metadata_header_row": 1,
+    "group_header_row": 1,
+    "attribute_header_row": 2,
+    "data_start_row": 4,
+    "key_column": "Key",
+    "title_column": "Title",
+    "url_column": "URL",
+    "unnamed_group_title": "Evaluation method",
+    "group_titles": {
+      "Definition of Sycophancy (what exactly do they mean by sycophancy)": "Definition of sycophancy",
+      "Outcomes (Are they measuring the impact of sycophancy on something else?)": "Outcomes"
+    },
+    "positive_values": [
+      "X"
+    ],
+    "negative_values": [
+      ""
+    ]
+  }
+}

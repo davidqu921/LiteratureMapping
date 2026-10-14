@@ -1,0 +1,162 @@
+{
+  "source": "D:\\Summer_Project_2026\\LiteratureMapping\\sample_lit_map.csv",
+  "paper_count": 17,
+  "groups": [
+    {
+      "title": "Population",
+      "attributes": [
+        {
+          "name": "K-12",
+          "csv_column": 2,
+          "marked_papers": 6
+        },
+        {
+          "name": "Undergraduate",
+          "csv_column": 3,
+          "marked_papers": 11
+        },
+        {
+          "name": "First time programmers",
+          "csv_column": 4,
+          "marked_papers": 6
+        },
+        {
+          "name": "Educators",
+          "csv_column": 5,
+          "marked_papers": 1
+        },
+        {
+          "name": "Race",
+          "csv_column": 6,
+          "marked_papers": 3
+        },
+        {
+          "name": "Gender",
+          "csv_column": 7,
+          "marked_papers": 6
+        },
+        {
+          "name": "Accessability",
+          "csv_column": 8,
+          "marked_papers": 2
+        }
+      ],
+      "unmarked_papers": []
+    },
+    {
+      "title": "Evaluation",
+      "attributes": [
+        {
+          "name": "Grades",
+          "csv_column": 9,
+          "marked_papers": 8
+        },
+        {
+          "name": "Participation",
+          "csv_column": 10,
+          "marked_papers": 5
+        },
+        {
+          "name": "Opinion",
+          "csv_column": 11,
+          "marked_papers": 8
+        },
+        {
+          "name": "Deep Feedback",
+          "csv_column": 12,
+          "marked_papers": 4
+        }
+      ],
+      "unmarked_papers": []
+    },
+    {
+      "title": "Intervention",
+      "attributes": [
+        {
+          "name": "Practice",
+          "csv_column": 13,
+          "marked_papers": 6
+        },
+        {
+          "name": "Tool",
+          "csv_column": 14,
+          "marked_papers": 4
+        },
+        {
+          "name": "Colleagues",
+          "csv_column": 15,
+          "marked_papers": 8
+        },
+        {
+          "name": "Instructors",
+          "csv_column": 16,
+          "marked_papers": 4
+        },
+        {
+          "name": "Evaluation",
+          "csv_column": 17,
+          "marked_papers": 7
+        }
+      ],
+      "unmarked_papers": []
+    }
+  ],
+  "pairs": [
+    {
+      "file": "map_01",
+      "rows": "Population",
+      "columns": "Evaluation"
+    },
+    {
+      "file": "map_02",
+      "rows": "Population",
+      "columns": "Intervention"
+    },
+    {
+      "file": "map_03",
+      "rows": "Evaluation",
+      "columns": "Intervention"
+    }
+  ],
+  "warnings": [],
+  "bibliography": "CSV-only draft; not fetched or externally verified",
+  "heatmap_scale": "100 * overlap_count / paper_count",
+  "config": {
+    "attribute_header_row": 1,
+    "data_start_row": 2,
+    "key_column": "key",
+    "groups": [
+      {
+        "title": "Population",
+        "attributes": [
+          "K-12",
+          "Undergraduate",
+          "First time programmers",
+          "Educators",
+          "Race",
+          "Gender",
+          "Accessability"
+        ]
+      },
+      {
+        "title": "Evaluation",
+        "attributes": [
+          "Grades",
+          "Participation",
+          "Opinion",
+          "Deep Feedback"
+        ]
+      },
+      {
+        "title": "Intervention",
+        "attributes": [
+          "Practice",
+          "Tool",
+          "Colleagues",
+          "Instructors",
+          "Evaluation"
+        ]
+      }
+    ]
+  }
+}

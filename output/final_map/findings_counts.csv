@@ -1,0 +1,18 @@
+﻿group,attribute,papers,denominator,percent
+Evaluation method,Human - Specialist,5,31,16.1
+Evaluation method,Human - Authors,8,31,25.8
+Evaluation method,AI - prompted,8,31,25.8
+Definition of sycophancy,Hallucination Agreement,4,31,12.9
+Definition of sycophancy,Bias Agreement,13,31,41.9
+Definition of sycophancy,Obsequiousness,7,31,22.6
+Definition of sycophancy,Stance Change,8,31,25.8
+Definition of sycophancy,Failure to challenge/trying to get along,17,31,54.8
+Outcomes,None,5,31,16.1
+Outcomes,User opinion,11,31,35.5
+Outcomes,User action,8,31,25.8
+Outcomes,System performance,12,31,38.7
+Outcomes,User performance,4,31,12.9
+Mutually exclusive outcome partition,human_only,14,31,45.2
+Mutually exclusive outcome partition,system_only,11,31,35.5
+Mutually exclusive outcome partition,both_human_and_system,1,31,3.2
+Mutually exclusive outcome partition,neither_human_nor_system,5,31,16.1

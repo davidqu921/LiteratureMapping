@@ -1,0 +1,28 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,landscape,margin=15mm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,array}
+\usepackage[numbers]{natbib}
+\usepackage[hidelinks]{hyperref}
+\setlength{\emergencystretch}{2em}
+\hyphenation{ob-se-qui-ous-ness}
+\begin{document}
+\section*{Literature map: review draft}
+Source CSV: 17 papers. Blank cells mean unmarked, not confirmed absence. Categories are multi-label; cell counts must not be summed as unique papers.
+\par\smallskip 
+\par\smallskip\textbf{Bibliography status:} \IfFileExists{references.bib}{Using user-supplied references.bib; verify metadata before submission.}{CSV-only draft entries; full titles, authors, years and venues require verification.}
+\nocite{anon2020title10,anon2020title12,anon2020title15,anon2020title17,anon2020title19,anon2020title22,anon2020title25,anon2020title28,anon2020title3,anon2020title32,anon2020title35,anon2020title37,anon2020title42,anon2020title45,anon2020title48,anon2020title7,anon2020title8}
+\input{map_01_heatmap.tex}
+\input{map_01_citations.tex}
+\clearpage
+\input{map_02_heatmap.tex}
+\input{map_02_citations.tex}
+\clearpage
+\input{map_03_heatmap.tex}
+\input{map_03_citations.tex}
+\clearpage
+\bibliographystyle{unsrt}
+\IfFileExists{references.bib}{\bibliography{references}}{\bibliography{references_draft}}
+\end{document}
