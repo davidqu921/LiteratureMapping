@@ -9,18 +9,5 @@ output/**/*.fls
 output/**/*.fdb_latexmk
 output/**/preview-*.png
 build/
-paper/*.aux
-paper/*.log
-paper/*.blg
-paper/*.bbl
-paper/*.out
-paper/*.fls
-paper/*.fdb_latexmk
-paper/qa/page-*.png
-paper/qa/build-*.txt
-paper/qa/main.txt
-paper/qa/standalone_build/
-paper/qa/heatmap_build/
-paper/evidence/sources/
-paper/evidence/workbook_extraction.json
-paper/AnonymousSubmission2027.tex
+# Local manuscript development; excluded from the public code artifact.
+/paper/

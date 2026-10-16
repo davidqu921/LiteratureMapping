@@ -1,12 +1,12 @@
 # Evidence audit of the sycophancy map
 
-This English record consolidates the earlier findings note and the evidence audit dated **14 October 2026**. Documentation was reorganized on 16 October 2026; that date is not a literature-search date. The manuscript is [From Sycophantic Behavior to User Consequences: An Evidence Audit of a Literature Map](../paper/main.pdf).
+This record describes the public map's provenance, coding-based findings, and interpretation limits. The underlying evidence audit is dated **14 October 2026**; documentation changes are not literature-search dates. Manuscript preparation and submission records are maintained separately for local development.
 
 The study is secondary research on a bounded, manually coded corpus. Original labels, additional full-text extraction, and external related work remain separate. No new model experiment, user experiment, benchmark, or automatic recoding is part of this artifact.
 
 ## Corpus and recoverable workflow
 
-The main human-coding source is `data/lit-map 2026s sycophancy.xlsx`, primarily **Mapping Discrepancies**. Its retained records match the workbook's **FINAL MAP** tab and the project CSV on all 13 shared attributes. Every exported FINAL MAP cell matches the CSV; `paper/data/final_map.csv` is a frozen copy. See [workbook_audit.json](../paper/generated/workbook_audit.json).
+The main human-coding source is `data/lit-map 2026s sycophancy.xlsx`, primarily **Mapping Discrepancies**. The audit found that its retained records match the workbook's **FINAL MAP** tab and the project CSV on all 13 shared attributes, and every exported FINAL MAP cell matches the CSV. Both source files remain in `data/` for inspection.
 
 - **All Papers:** 395 candidate rows, not 395 unique publications. There are 391 normalized keys, including the invalid key `x` on three rows and duplicate DOI records.
 - **INCEXC A/B:** 395 decisions per sheet, with three distinct named screeners on each sheet (six overall). Current A decisions are 30 Include / 365 Exclude; B decisions are 33 / 362. Three current decisions differ. The workbook does not establish whether these are initial independent decisions or edited values; they cannot support an initial agreement rate or kappa.
@@ -16,11 +16,11 @@ The main human-coding source is `data/lit-map 2026s sycophancy.xlsx`, primarily 
 
 The earlier mapping has five evaluator categories; FINAL MAP retains three. All **12** records unmarked in the final evaluator group have `Human - general` and/or `Human - Student` marked in the earlier mapping. They must not be described as papers with no evaluation method. Why the two columns were omitted remains unresolved.
 
-Counting uses **publication records**, not independent studies, participants, or effects. The final 31 have no duplicate normalized DOI keys or duplicate normalized complete Crossref titles. This check does not establish independence of their samples or empirical evidence. Two included records are identified reviews (`10.1145/3703155` and `10.1145/3776734.3794532`); the manuscript keeps them in the main map and reports a sensitivity analysis excluding them. The remaining 29 are not automatically certified as primary studies.
+Counting uses **publication records**, not independent studies, participants, or effects. The final 31 have no duplicate normalized DOI keys or duplicate normalized complete Crossref titles. This check does not establish independence of their samples or empirical evidence. Two included records are identified reviews (`10.1145/3703155` and `10.1145/3776734.3794532`); the main map keeps them, and the sensitivity summary below excludes them. The remaining 29 are not automatically certified as primary studies.
 
 ## Findings supported by the original coding
 
-The source fields and record-level membership lists are in [analysis.json](../paper/generated/analysis.json), [coded_records.csv](../paper/generated/coded_records.csv), and [codebook.csv](../paper/generated/codebook.csv). All percentages below use N = 31 unless another denominator is stated. Blank means unmarked, not confirmed absence or not applicable. The data contain no explicit N/A category.
+Record-level membership lists and the input hash are in [findings_evidence.json](../output/final_map/findings_evidence.json); the source CSV contains attribute names in row 2, definitions in row 3, and publication records from row 4. Run `scripts.analyze_map` as described in the README to reproduce the main counts. All percentages below use N = 31 unless another denominator is stated. Blank means unmarked, not confirmed absence or not applicable. The data contain no explicit N/A category.
 
 | Outcome field | Marked records | Percentage | Intersection with system performance |
 | --- | ---: | ---: | ---: |
@@ -53,7 +53,7 @@ Excluding the two explicitly identified reviews leaves N = 29: system performanc
 
 ## Focused full-text checks and proposed coding reviews
 
-Only three included primary papers received the focused result audit below. Public author versions were used after publisher PDF requests returned access errors. The artifact does not claim a full-text audit of all 31 records. Exact measures, PDF pages, versions, and proposed reviews are preserved in [study_audit.json](../paper/evidence/study_audit.json); retrieval provenance is separate. None of these extractions silently changes the original labels.
+Only three included primary papers received the focused result audit below. Public author versions were used after publisher PDF requests returned access errors. The artifact does not claim a full-text audit of all 31 records. The source versions, measures, PDF pages, and proposed coding reviews are specified below. None of these extractions silently changes the original labels.
 
 ### Invisible Saboteurs
 
@@ -77,23 +77,21 @@ DOI `10.1145/3772318.3791079`; [arXiv:2502.10844v3](https://arxiv.org/abs/2502.1
 
 The 2 x 2 experiment analyzes 224 U.S. adults discussing autonomous vehicles, crossing adaptive/consistent stance with complimentary/neutral demeanor. Measures include trust, use/recommendation intentions, and issue attitudes (PDF p.6). Perceived authenticity has a stance-by-demeanor interaction (p.8, section 4.5; p = .033): the adaptive-versus-consistent contrast changes direction across demeanor conditions.
 
-The original map already marks `Obsequiousness` and `Stance Change`, with `User opinion`. No additional behavior code is proposed. Intentions are not observed actions, and authenticity is not objective correctness. A mediation statement in section 4.2 conflicts with a reported confidence interval crossing zero; the manuscript does not adopt that strong statement.
+The original map already marks `Obsequiousness` and `Stance Change`, with `User opinion`. No additional behavior code is proposed. Intentions are not observed actions, and authenticity is not objective correctness. A mediation statement in section 4.2 conflicts with a reported confidence interval crossing zero; this audit does not adopt that strong statement.
 
 ## Closest work and contribution boundary
 
-[What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct](https://arxiv.org/abs/2605.21778v1) reviews 70 papers and surveys 106 experts; its discussion and appendix already address definitions, measurement, and downstream effects. It is external related work, outside N = 31. The present manuscript therefore claims neither a first taxonomy nor the first connection between sycophancy and consequences.
+[What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct](https://arxiv.org/abs/2605.21778v1) reviews 70 papers and surveys 106 experts; its discussion and appendix already address definitions, measurement, and downstream effects. It is external related work, outside N = 31. This mapping project therefore claims neither a first taxonomy nor the first connection between sycophancy and consequences.
 
 The narrower contribution is a reproducible outcome co-coverage analysis of an existing human-coded map, accompanied by an audit of what evaluators rate, what constitutes a system measure, and what directly observes a user consequence. Seaborn and Yalcin's included scoping review is identified as a review and background source; unavailable full text is not used to invent specific synthesis results.
 
-All 31 DOI records match the cached Crossref JSON and BibTeX. Of the CSV titles, 23 match after normalization and eight are prefixes of the complete titles. Full metadata is used in the bibliography. Converting Unicode names to TeX accents preserves author metadata while avoiding classic BibTeX abbreviation issues. The manuscript database contains 32 entries (31 corpus records and one external taxonomy), of which six are cited. See [corpus_manifest.csv](../paper/generated/corpus_manifest.csv).
+All 31 DOI records match the cached Crossref JSON and BibTeX. Of the CSV titles, 23 match after normalization and eight are prefixes of the complete titles. The map bibliography uses the complete Crossref metadata. See [crossref_audit.csv](../output/final_map/crossref_audit.csv) and [crossref_report.json](../output/final_map/crossref_report.json); external background literature does not enter the map's denominator.
 
-## Figures, manuscript, and validation
+## Maps and validation
 
-The manuscript contains one marginal/co-coverage table and a behavior-by-outcome heatmap (Figure 1, p.3). Two evaluator panels are companion assets under `paper/figures/`. The original [main_heatmaps.pdf](../output/final_map/main_heatmaps.pdf) remains available as the all-panel review output. Its Type 3 fonts are replaced in the manuscript assets by re-typesetting the same 55 counts and purple count/N scale with 10-point embedded Type 1 text. Row totals are added; the display label `User task performance` clarifies the original `User performance` field. No label assignments change. See [figure provenance](../paper/figures/provenance.json).
+The [all-panel heatmap](../output/final_map/main_heatmaps.pdf) shows evaluator-by-behavior, evaluator-by-outcome, and behavior-by-outcome intersections. The three panels contain 55 cells, all checked against the original coded CSV by the regression tests. Their purple intensity represents count/N, not effect magnitude. The companion count and key CSVs in `output/final_map/` support cell-level inspection.
 
-The recorded build uses PDFLaTeX, BibTeX, and two further PDFLaTeX passes. The manuscript is four US Letter pages total, including references starting on p.4, with no appendix. All six cited references resolve. The recorded verification finds no overfull boxes or undefined references, and matches all 55 original cells and all 55 counts extracted from the new vector PDFs. Page images were visually checked for legibility, overlap, and clipping. Current checks are in [validation.json](../paper/qa/validation.json); run `python paper/build.py --verify` to refresh them.
-
-The **14 October 2026 requirements snapshot** recorded a four-page body limit for extended abstracts, excluding references and appendices, and the AAAI-27 format. It recorded a regular deadline of 20 November 2026 AoE and a separate 3 December fast track, on a provisional [workshop page](https://intelligence-symbiosis.net/en/events/aaai-2027-workshop). These are dated audit observations, not a promise of current submission policy. The workshop page did not separately specify anonymity; the draft conservatively uses the linked AAAI submission mode. Official `.sty` and `.bst` files are unmodified. No authors, affiliations, or search-history details are fabricated.
+Run `python -m unittest discover -s tests -v` from the repository root to check parsing, all 55 intersections, outcome partitions, bibliography handling, and cached retrieval. Compilation instructions are in the README. The existing all-panel PDF is a review artifact with Type 3 fonts; check a destination venue's font requirements when adapting it for publication.
 
 ## Remaining author decisions
 
@@ -102,6 +100,3 @@ The **14 October 2026 requirements snapshot** recorded a four-page body limit fo
 3. Explain the two omitted evaluator columns and decide consistent rules for computational validation and subjective advice quality as system outcomes.
 4. Review the suggested additional labels for Invisible Saboteurs, with a recorded decision before changing inputs and regenerating results.
 5. Confirm initial coding independence and discrepancy-resolution history; edited workbook agreement cannot substitute for those records.
-6. Confirm authorship and the workshop's final submission/anonymity requirements before any submission.
-
-The repository and source bundle are local research artifacts. No submission, message to external parties, or publication of the project is part of this workflow.

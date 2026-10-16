@@ -1,2 +1,0 @@
-# Optional PDF verification and vector-figure export; core scripts use stdlib only.
-PyMuPDF==1.28.2

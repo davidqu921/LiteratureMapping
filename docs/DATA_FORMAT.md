@@ -1,6 +1,6 @@
 # Data format and counting rules
 
-The reusable map generator consumes an explicitly coded CSV and a JSON configuration. It does not read Excel directly, infer labels from papers, or decide which publications belong in a corpus. The workbook audit in `paper/` is a separate, corpus-specific tool.
+The reusable map generator consumes an explicitly coded CSV and a JSON configuration. It does not read Excel directly, infer labels from papers, or decide which publications belong in a corpus. Export the agreed coding sheet as CSV before running the generator.
 
 ## Source hierarchy
 
@@ -8,10 +8,9 @@ The reusable map generator consumes an explicitly coded CSV and a JSON configura
 | --- | --- | --- |
 | `data/lit-map 2026s sycophancy.xlsx` | Human coding and available screening records; primarily **Mapping Discrepancies**, plus **FINAL MAP** | Preserve decisions and their provenance; document proposed corrections separately. |
 | `data/lit-map 2026s sycophancy - FINAL MAP.csv` | Export used by the general mapping tools | Update only after approved coding changes. |
-| `paper/data/final_map.csv` | Frozen manuscript input, currently byte-identical to the project CSV | Update deliberately with the manuscript, figures, and audit. |
-| `paper/generated/codebook.csv` | Attribute definitions extracted from row 3 of the frozen CSV | Generated; edit the source definitions, then regenerate. |
-| `paper/evidence/study_audit.json` | Additional full-text extraction and suggested coding reviews | Keep separate from original human labels. |
-| `output/` and `paper/generated/` | Derived counts, citation lists, and reports | Regenerate from the relevant inputs. |
+| Row 3 of the FINAL MAP CSV | Supplied attribute definitions | Preserve definitions alongside the coding. |
+| `docs/EVIDENCE_AUDIT.md` | Additional full-text checks and suggested coding reviews | Keep separate from original human labels. |
+| `output/` | Derived counts, citation lists, and reports | Regenerate from the relevant inputs. |
 
 The actual workbook tab is **Mapping Discrepancies** (plural). Its 34 mapped rows comprise 31 retained records and three marked `DELETE`. The retained records and all 13 shared fields match FINAL MAP. The earlier mapping has 15 fields: FINAL MAP omits `Human - general` and `Human - Student`. These are schema differences, not inferred absences of evaluation. See [the evidence audit](EVIDENCE_AUDIT.md).
 
@@ -35,7 +34,7 @@ The sycophancy export has 17 columns, three header rows, and 31 publication rows
 | --- | --- |
 | Row 1 | Metadata names and group headings. A heading carries right until the next nonempty group heading. |
 | Row 2 | Attribute names. |
-| Row 3 | Attribute definitions; skipped by the general parser, extracted by `paper/analyze.py`. |
+| Row 3 | Attribute definitions; preserved in the CSV and skipped when counting publication records. |
 | Row 4 onward | Publication metadata and marks. |
 | Columns A-C | `URL`, `Title`, `Key` (DOI). |
 | Column D | Empty separator. |
@@ -96,7 +95,7 @@ Save these as `my_map.csv` and `my_config.json`, then run from the repository ro
 python -m scripts.csv_to_latex my_map.csv --config my_config.json --out build/my_map
 ```
 
-In explicit-group mode, each referenced attribute name must occur exactly once in the header. For new grouped exports, add attributes and group headings in the CSV and adjust the configuration; no hard-coded column slices need changing in the general generator. This flexibility does **not** apply to the corpus-specific `scripts/analyze_map.py` or `paper/analyze.py`.
+In explicit-group mode, each referenced attribute name must occur exactly once in the header. For new grouped exports, add attributes and group headings in the CSV and adjust the configuration; no hard-coded column slices need changing in the general generator. This flexibility does **not** apply to the corpus-specific `scripts/analyze_map.py`.
 
 The supplied `examples/sample_lit_map.csv` has 17 records and three groups (Population, Evaluation, Intervention). It is a historical education example, not part of the sycophancy corpus. Its original label `Accessability` is retained to match its configuration.
 
@@ -129,13 +128,13 @@ Python generation does not compile or refresh PDFs. Existing `references.bib` is
 
 ## Corpus-specific statistics
 
-`scripts/analyze_map.py` expects the FINAL MAP group and outcome names. It writes `findings_counts.csv` and `findings_evidence.json`, including DOI membership lists and an input hash. `paper/analyze.py` independently analyzes the frozen manuscript schema and also supplies a sensitivity analysis excluding two identified reviews.
+`scripts/analyze_map.py` expects the FINAL MAP group and outcome names. It writes `findings_counts.csv` and `findings_evidence.json`, including DOI membership lists and an input hash. The main analysis retains all 31 records, including two identified reviews; any sensitivity analysis needs an explicit alternative input and denominator.
 
 - Coverage uses publication records as the denominator, not participants, experiments, or independent studies.
 - `any user outcome` is the set union of `User opinion`, `User action`, and `User performance`. Intersections with system performance are computed from these record sets, not by adding heatmap cells.
-- `User opinion` includes opinions/reactions and can include issue attitudes; it must not be relabeled entirely as perceptions or trust. The manuscript displays `User performance` as `User task performance` to clarify its task-level meaning.
-- `None` is an explicit code for measuring sycophancy without an additional impact measure. It is not a missing value or evidence of a null effect. The findings script reports `None` conflicts; the manuscript analysis rejects `None` together with another outcome.
+- `User opinion` includes opinions/reactions and can include issue attitudes; it must not be relabeled entirely as perceptions or trust. `User performance` denotes task-level performance in the codebook.
+- `None` is an explicit code for measuring sycophancy without an additional impact measure. It is not a missing value or evidence of a null effect. The findings script reports conflicts where `None` appears together with another outcome; review these before interpreting the results.
 - `System performance` is a coding category, not a guarantee of objective accuracy measurement. Follow the full-text evidence when interpreting particular papers.
 - A publication marked in two outcome categories need not have tested their association or a causal relation.
 
-Neither pipeline resolves preprint/publication duplicates, supplies missing search history, or silently changes human coding after a full-text audit. Keep corrections, extractions, and external related work distinct from the statistical corpus.
+The tools do not resolve preprint/publication duplicates, supply missing search history, or silently change human coding after a full-text audit. Keep corrections, extractions, and external related work distinct from the statistical corpus.
