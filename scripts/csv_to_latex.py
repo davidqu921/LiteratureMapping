@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from zipfile import ZipFile, ZIP_DEFLATED
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def tex(value):
@@ -246,7 +246,7 @@ def generate(source, config, out):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("csv", nargs="?", type=Path, default=ROOT / "sample_lit_map.csv")
+    parser.add_argument("csv", nargs="?", type=Path, default=ROOT / "examples" / "sample_lit_map.csv")
     parser.add_argument("--config", type=Path, default=ROOT / "configs" / "sample.json")
     parser.add_argument("--out", type=Path, default=ROOT / "output" / "sample")
     args = parser.parse_args()

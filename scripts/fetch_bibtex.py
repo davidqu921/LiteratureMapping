@@ -17,7 +17,10 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-from csv_to_latex import ROOT, read_map
+if __package__:
+    from .csv_to_latex import ROOT, read_map
+else:
+    from csv_to_latex import ROOT, read_map
 
 
 class CrossrefRedirects(urllib.request.HTTPRedirectHandler):

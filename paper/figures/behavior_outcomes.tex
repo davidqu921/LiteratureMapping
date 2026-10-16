@@ -1,0 +1,20 @@
+\documentclass[10pt,border=0.5pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,array}
+\hyphenation{hal-lu-ci-na-tion ob-se-qui-ous-ness per-for-mance}
+\begin{document}
+\begin{minipage}{502pt}
+\renewcommand{\arraystretch}{1.45}
+\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}p{0.29\linewidth}|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Sycophantic behavior} & \hspace{0pt}\textbf{None} & \hspace{0pt}\textbf{User opinion} & \hspace{0pt}\textbf{User action} & \hspace{0pt}\textbf{System performance} & \hspace{0pt}\textbf{User task performance} \\ \hline
+Hallucination agreement ($n=4$) & \cellcolor{purple!0}0 & \cellcolor{purple!0}0 & \cellcolor{purple!0}0 & \cellcolor{purple!13}4 & \cellcolor{purple!0}0 \\ \hline
+Bias agreement ($n=13$) & \cellcolor{purple!10}3 & \cellcolor{purple!19}6 & \cellcolor{purple!6}2 & \cellcolor{purple!13}4 & \cellcolor{purple!6}2 \\ \hline
+Obsequiousness ($n=7$) & \cellcolor{purple!10}3 & \cellcolor{purple!10}3 & \cellcolor{purple!10}3 & \cellcolor{purple!0}0 & \cellcolor{purple!3}1 \\ \hline
+Stance change ($n=8$) & \cellcolor{purple!0}0 & \cellcolor{purple!10}3 & \cellcolor{purple!6}2 & \cellcolor{purple!16}5 & \cellcolor{purple!0}0 \\ \hline
+Failure to challenge / getting along ($n=17$) & \cellcolor{purple!10}3 & \cellcolor{purple!13}4 & \cellcolor{purple!16}5 & \cellcolor{purple!19}6 & \cellcolor{purple!10}3 \\ \hline
+\end{tabularx}
+\end{minipage}
+\end{document}

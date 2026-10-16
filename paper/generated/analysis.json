@@ -1,0 +1,572 @@
+{
+  "input_sha256": "cb03a03c9bab259d7b67aa3fee91d791bbaf2aa9b09de4e0a8ce88199a3b6e95",
+  "unit": "publication record, not independent study",
+  "cell_policy": "X=marked; blank=unmarked, not verified absence; no explicit N/A present",
+  "main": {
+    "N": 31,
+    "counts": {
+      "Human - Specialist": {
+        "n": 5,
+        "percent": 16.1,
+        "dois": [
+          "10.1145/3660650.3660656",
+          "10.1145/3703155",
+          "10.1145/3715275.3732039",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300"
+        ]
+      },
+      "Human - Authors": {
+        "n": 8,
+        "percent": 25.8,
+        "dois": [
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3663547.3746319",
+          "10.1145/3744169.3744194",
+          "10.1145/3746027.3755778",
+          "10.1145/3772363.3799334",
+          "10.1145/3776734.3794532",
+          "10.1145/3786304.3787879",
+          "10.1145/3786335.3813137"
+        ]
+      },
+      "AI - prompted": {
+        "n": 8,
+        "percent": 25.8,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3715275.3732039",
+          "10.1145/3742413.3789120",
+          "10.1145/3774904.3792506",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "Hallucination Agreement": {
+        "n": 4,
+        "percent": 12.9,
+        "dois": [
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3703155",
+          "10.1145/3746027.3755778"
+        ]
+      },
+      "Bias Agreement": {
+        "n": 13,
+        "percent": 41.9,
+        "dois": [
+          "10.1145/3706599.3719976",
+          "10.1145/3717511.3747073",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791149",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300",
+          "10.1145/3772318.3791851",
+          "10.1145/3772318.3791915",
+          "10.1145/3772363.3798705",
+          "10.1145/3774904.3792506",
+          "10.1145/3776734.3794532",
+          "10.1145/3786304.3787879",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "Obsequiousness": {
+        "n": 7,
+        "percent": 22.6,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1145/3660650.3660656",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791079",
+          "10.1145/3772318.3791149",
+          "10.1145/3776734.3794532"
+        ]
+      },
+      "Stance Change": {
+        "n": 8,
+        "percent": 25.8,
+        "dois": [
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1145/3719160.3736618",
+          "10.1145/3746027.3755778",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3791079",
+          "10.1145/3774904.3792506",
+          "10.1145/3786335.3813137"
+        ]
+      },
+      "Failure to challenge/trying to get along": {
+        "n": 17,
+        "percent": 54.8,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1145/1518701.1519021",
+          "10.1145/3660650.3660656",
+          "10.1145/3663547.3746319",
+          "10.1145/3703155",
+          "10.1145/3706599.3719976",
+          "10.1145/3715275.3732039",
+          "10.1145/3717511.3747073",
+          "10.1145/3742413.3789120",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3791365",
+          "10.1145/3772363.3799334",
+          "10.1145/3776734.3794532",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "None": {
+        "n": 5,
+        "percent": 16.1,
+        "dois": [
+          "10.1145/3660650.3660656",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3791915",
+          "10.1145/3776734.3794532",
+          "10.1145/3786304.3787879"
+        ]
+      },
+      "User opinion": {
+        "n": 11,
+        "percent": 35.5,
+        "dois": [
+          "10.1145/1518701.1519021",
+          "10.1145/3663547.3746319",
+          "10.1145/3706599.3719976",
+          "10.1145/3719160.3736618",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791079",
+          "10.1145/3772318.3791149",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791851",
+          "10.1145/3772363.3798705"
+        ]
+      },
+      "User action": {
+        "n": 8,
+        "percent": 25.8,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1145/1518701.1519021",
+          "10.1145/3663547.3746319",
+          "10.1145/3719160.3736618",
+          "10.1145/3742413.3789120",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791149"
+        ]
+      },
+      "System performance": {
+        "n": 12,
+        "percent": 38.7,
+        "dois": [
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3703155",
+          "10.1145/3715275.3732039",
+          "10.1145/3746027.3755778",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300",
+          "10.1145/3772363.3799334",
+          "10.1145/3774904.3792506",
+          "10.1145/3786335.3813137",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "User performance": {
+        "n": 4,
+        "percent": 12.9,
+        "dois": [
+          "10.1145/3717511.3747073",
+          "10.1145/3742413.3789120",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791365"
+        ]
+      }
+    },
+    "pair_counts": {
+      "Human - Specialist | Hallucination Agreement": 1,
+      "Human - Specialist | Bias Agreement": 2,
+      "Human - Specialist | Obsequiousness": 1,
+      "Human - Specialist | Stance Change": 0,
+      "Human - Specialist | Failure to challenge/trying to get along": 3,
+      "Human - Authors | Hallucination Agreement": 2,
+      "Human - Authors | Bias Agreement": 2,
+      "Human - Authors | Obsequiousness": 2,
+      "Human - Authors | Stance Change": 2,
+      "Human - Authors | Failure to challenge/trying to get along": 4,
+      "AI - prompted | Hallucination Agreement": 2,
+      "AI - prompted | Bias Agreement": 2,
+      "AI - prompted | Obsequiousness": 1,
+      "AI - prompted | Stance Change": 3,
+      "AI - prompted | Failure to challenge/trying to get along": 6,
+      "Human - Specialist | None": 1,
+      "Human - Specialist | User opinion": 1,
+      "Human - Specialist | User action": 0,
+      "Human - Specialist | System performance": 4,
+      "Human - Specialist | User performance": 0,
+      "Human - Authors | None": 3,
+      "Human - Authors | User opinion": 1,
+      "Human - Authors | User action": 1,
+      "Human - Authors | System performance": 4,
+      "Human - Authors | User performance": 0,
+      "AI - prompted | None": 0,
+      "AI - prompted | User opinion": 0,
+      "AI - prompted | User action": 2,
+      "AI - prompted | System performance": 6,
+      "AI - prompted | User performance": 1,
+      "Hallucination Agreement | None": 0,
+      "Hallucination Agreement | User opinion": 0,
+      "Hallucination Agreement | User action": 0,
+      "Hallucination Agreement | System performance": 4,
+      "Hallucination Agreement | User performance": 0,
+      "Bias Agreement | None": 3,
+      "Bias Agreement | User opinion": 6,
+      "Bias Agreement | User action": 2,
+      "Bias Agreement | System performance": 4,
+      "Bias Agreement | User performance": 2,
+      "Obsequiousness | None": 3,
+      "Obsequiousness | User opinion": 3,
+      "Obsequiousness | User action": 3,
+      "Obsequiousness | System performance": 0,
+      "Obsequiousness | User performance": 1,
+      "Stance Change | None": 0,
+      "Stance Change | User opinion": 3,
+      "Stance Change | User action": 2,
+      "Stance Change | System performance": 5,
+      "Stance Change | User performance": 0,
+      "Failure to challenge/trying to get along | None": 3,
+      "Failure to challenge/trying to get along | User opinion": 4,
+      "Failure to challenge/trying to get along | User action": 5,
+      "Failure to challenge/trying to get along | System performance": 6,
+      "Failure to challenge/trying to get along | User performance": 3
+    },
+    "any_user": {
+      "n": 15,
+      "percent": 48.4,
+      "dois": [
+        "10.1109/aixvr67263.2026.00026",
+        "10.1145/1518701.1519021",
+        "10.1145/3663547.3746319",
+        "10.1145/3706599.3719976",
+        "10.1145/3717511.3747073",
+        "10.1145/3719160.3736618",
+        "10.1145/3742413.3789120",
+        "10.1145/3772318.3790385",
+        "10.1145/3772318.3790934",
+        "10.1145/3772318.3791079",
+        "10.1145/3772318.3791149",
+        "10.1145/3772318.3791233",
+        "10.1145/3772318.3791365",
+        "10.1145/3772318.3791851",
+        "10.1145/3772363.3798705"
+      ]
+    },
+    "system_intersections": {
+      "User opinion": [
+        "10.1145/3772318.3791233"
+      ],
+      "User action": [],
+      "User performance": []
+    },
+    "system_any_user": [
+      "10.1145/3772318.3791233"
+    ],
+    "partition": {
+      "system_only": 11,
+      "user_only": 14,
+      "both": 1,
+      "neither_marked": 5
+    },
+    "evaluator_unmarked": 12
+  },
+  "excluding_two_identified_reviews": {
+    "N": 29,
+    "counts": {
+      "Human - Specialist": {
+        "n": 4,
+        "percent": 13.8,
+        "dois": [
+          "10.1145/3660650.3660656",
+          "10.1145/3715275.3732039",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300"
+        ]
+      },
+      "Human - Authors": {
+        "n": 7,
+        "percent": 24.1,
+        "dois": [
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3663547.3746319",
+          "10.1145/3744169.3744194",
+          "10.1145/3746027.3755778",
+          "10.1145/3772363.3799334",
+          "10.1145/3786304.3787879",
+          "10.1145/3786335.3813137"
+        ]
+      },
+      "AI - prompted": {
+        "n": 8,
+        "percent": 27.6,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3715275.3732039",
+          "10.1145/3742413.3789120",
+          "10.1145/3774904.3792506",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "Hallucination Agreement": {
+        "n": 3,
+        "percent": 10.3,
+        "dois": [
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3746027.3755778"
+        ]
+      },
+      "Bias Agreement": {
+        "n": 12,
+        "percent": 41.4,
+        "dois": [
+          "10.1145/3706599.3719976",
+          "10.1145/3717511.3747073",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791149",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300",
+          "10.1145/3772318.3791851",
+          "10.1145/3772318.3791915",
+          "10.1145/3772363.3798705",
+          "10.1145/3774904.3792506",
+          "10.1145/3786304.3787879",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "Obsequiousness": {
+        "n": 6,
+        "percent": 20.7,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1145/3660650.3660656",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791079",
+          "10.1145/3772318.3791149"
+        ]
+      },
+      "Stance Change": {
+        "n": 8,
+        "percent": 27.6,
+        "dois": [
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1145/3719160.3736618",
+          "10.1145/3746027.3755778",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3791079",
+          "10.1145/3774904.3792506",
+          "10.1145/3786335.3813137"
+        ]
+      },
+      "Failure to challenge/trying to get along": {
+        "n": 15,
+        "percent": 51.7,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1145/1518701.1519021",
+          "10.1145/3660650.3660656",
+          "10.1145/3663547.3746319",
+          "10.1145/3706599.3719976",
+          "10.1145/3715275.3732039",
+          "10.1145/3717511.3747073",
+          "10.1145/3742413.3789120",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3791365",
+          "10.1145/3772363.3799334",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "None": {
+        "n": 4,
+        "percent": 13.8,
+        "dois": [
+          "10.1145/3660650.3660656",
+          "10.1145/3744169.3744194",
+          "10.1145/3772318.3791915",
+          "10.1145/3786304.3787879"
+        ]
+      },
+      "User opinion": {
+        "n": 11,
+        "percent": 37.9,
+        "dois": [
+          "10.1145/1518701.1519021",
+          "10.1145/3663547.3746319",
+          "10.1145/3706599.3719976",
+          "10.1145/3719160.3736618",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791079",
+          "10.1145/3772318.3791149",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791851",
+          "10.1145/3772363.3798705"
+        ]
+      },
+      "User action": {
+        "n": 8,
+        "percent": 27.6,
+        "dois": [
+          "10.1109/aixvr67263.2026.00026",
+          "10.1145/1518701.1519021",
+          "10.1145/3663547.3746319",
+          "10.1145/3719160.3736618",
+          "10.1145/3742413.3789120",
+          "10.1145/3772318.3790385",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791149"
+        ]
+      },
+      "System performance": {
+        "n": 11,
+        "percent": 37.9,
+        "dois": [
+          "10.1109/bigdata62323.2024.10825538",
+          "10.1109/icassp55912.2026.11460702",
+          "10.1109/scw63240.2024.00017",
+          "10.1145/3715275.3732039",
+          "10.1145/3746027.3755778",
+          "10.1145/3772318.3791233",
+          "10.1145/3772318.3791300",
+          "10.1145/3772363.3799334",
+          "10.1145/3774904.3792506",
+          "10.1145/3786335.3813137",
+          "10.1145/3788646.3789536"
+        ]
+      },
+      "User performance": {
+        "n": 4,
+        "percent": 13.8,
+        "dois": [
+          "10.1145/3717511.3747073",
+          "10.1145/3742413.3789120",
+          "10.1145/3772318.3790934",
+          "10.1145/3772318.3791365"
+        ]
+      }
+    },
+    "pair_counts": {
+      "Human - Specialist | Hallucination Agreement": 0,
+      "Human - Specialist | Bias Agreement": 2,
+      "Human - Specialist | Obsequiousness": 1,
+      "Human - Specialist | Stance Change": 0,
+      "Human - Specialist | Failure to challenge/trying to get along": 2,
+      "Human - Authors | Hallucination Agreement": 2,
+      "Human - Authors | Bias Agreement": 1,
+      "Human - Authors | Obsequiousness": 1,
+      "Human - Authors | Stance Change": 2,
+      "Human - Authors | Failure to challenge/trying to get along": 3,
+      "AI - prompted | Hallucination Agreement": 2,
+      "AI - prompted | Bias Agreement": 2,
+      "AI - prompted | Obsequiousness": 1,
+      "AI - prompted | Stance Change": 3,
+      "AI - prompted | Failure to challenge/trying to get along": 6,
+      "Human - Specialist | None": 1,
+      "Human - Specialist | User opinion": 1,
+      "Human - Specialist | User action": 0,
+      "Human - Specialist | System performance": 3,
+      "Human - Specialist | User performance": 0,
+      "Human - Authors | None": 2,
+      "Human - Authors | User opinion": 1,
+      "Human - Authors | User action": 1,
+      "Human - Authors | System performance": 4,
+      "Human - Authors | User performance": 0,
+      "AI - prompted | None": 0,
+      "AI - prompted | User opinion": 0,
+      "AI - prompted | User action": 2,
+      "AI - prompted | System performance": 6,
+      "AI - prompted | User performance": 1,
+      "Hallucination Agreement | None": 0,
+      "Hallucination Agreement | User opinion": 0,
+      "Hallucination Agreement | User action": 0,
+      "Hallucination Agreement | System performance": 3,
+      "Hallucination Agreement | User performance": 0,
+      "Bias Agreement | None": 2,
+      "Bias Agreement | User opinion": 6,
+      "Bias Agreement | User action": 2,
+      "Bias Agreement | System performance": 4,
+      "Bias Agreement | User performance": 2,
+      "Obsequiousness | None": 2,
+      "Obsequiousness | User opinion": 3,
+      "Obsequiousness | User action": 3,
+      "Obsequiousness | System performance": 0,
+      "Obsequiousness | User performance": 1,
+      "Stance Change | None": 0,
+      "Stance Change | User opinion": 3,
+      "Stance Change | User action": 2,
+      "Stance Change | System performance": 5,
+      "Stance Change | User performance": 0,
+      "Failure to challenge/trying to get along | None": 2,
+      "Failure to challenge/trying to get along | User opinion": 4,
+      "Failure to challenge/trying to get along | User action": 5,
+      "Failure to challenge/trying to get along | System performance": 5,
+      "Failure to challenge/trying to get along | User performance": 3
+    },
+    "any_user": {
+      "n": 15,
+      "percent": 51.7,
+      "dois": [
+        "10.1109/aixvr67263.2026.00026",
+        "10.1145/1518701.1519021",
+        "10.1145/3663547.3746319",
+        "10.1145/3706599.3719976",
+        "10.1145/3717511.3747073",
+        "10.1145/3719160.3736618",
+        "10.1145/3742413.3789120",
+        "10.1145/3772318.3790385",
+        "10.1145/3772318.3790934",
+        "10.1145/3772318.3791079",
+        "10.1145/3772318.3791149",
+        "10.1145/3772318.3791233",
+        "10.1145/3772318.3791365",
+        "10.1145/3772318.3791851",
+        "10.1145/3772363.3798705"
+      ]
+    },
+    "system_intersections": {
+      "User opinion": [
+        "10.1145/3772318.3791233"
+      ],
+      "User action": [],
+      "User performance": []
+    },
+    "system_any_user": [
+      "10.1145/3772318.3791233"
+    ],
+    "partition": {
+      "system_only": 10,
+      "user_only": 14,
+      "both": 1,
+      "neither_marked": 4
+    },
+    "evaluator_unmarked": 12
+  }
+}

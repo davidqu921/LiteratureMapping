@@ -1,0 +1,14 @@
+zero_based_column,group,attribute,supplied_definition
+4,evaluator (inferred group heading),Human - Specialist,"Having someone with expertise (psychologist, conversation expert, etc) judge"
+5,evaluator (inferred group heading),Human - Authors,Authors judging
+6,evaluator (inferred group heading),AI - prompted,Some sort of prompted AI doing the judging
+7,behavior,Hallucination Agreement,Saying something objectively wrong/harmful becuase the user wants it to be so
+8,behavior,Bias Agreement,"The LLM choosing something that isn't objectively wrong, but siding towards the version that it believes user would want"
+9,behavior,Obsequiousness,Fawning or overly positive language
+10,behavior,Stance Change,Getting the LLM to change opinions/stance/viewpoint to please/mirror user
+11,behavior,Failure to challenge/trying to get along,LLM failing to push back or challenge user or just going along with user's suggestion despite potential problems
+12,outcome,None,Just measuing sycophancy directly with no impact
+13,outcome,User opinion,Measuring how users feel/react in some way
+14,outcome,User action,Measuring something about how users behave while/after interacting with sycophantic LLMS
+15,outcome,System performance,Some measure of how sycophantic LLMs perform on some task
+16,outcome,User performance,Some measure of how well the user is able to accomplish a task with sycophantic/non-sycophantic agents

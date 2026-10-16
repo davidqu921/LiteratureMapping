@@ -5,7 +5,10 @@ import hashlib
 import json
 from pathlib import Path
 
-from csv_to_latex import ROOT, read_map
+if __package__:
+    from .csv_to_latex import ROOT, read_map
+else:
+    from csv_to_latex import ROOT, read_map
 
 
 def analyze(source, config, out):

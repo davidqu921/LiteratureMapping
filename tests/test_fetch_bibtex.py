@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import Mock
 
-from fetch_bibtex import Client, CrossrefRedirects, bib_fields, validate, prepare_for_latex
+from scripts.fetch_bibtex import Client, CrossrefRedirects, bib_fields, validate, prepare_for_latex
 
 
 class BibtexTests(unittest.TestCase):

@@ -1,0 +1,34 @@
+URL,Title,Key, ,,,,Definition of Sycophancy (what exactly do they mean by sycophancy),,,,,Outcomes (Are they measuring the impact of sycophancy on something else?),,,,
+,,, ,Human - Specialist,Human - Authors,AI - prompted,Hallucination Agreement,Bias Agreement,Obsequiousness ,Stance Change,Failure to challenge/trying to get along,None,User opinion,User action,System performance,User performance
+,,, ,"Having someone with expertise (psychologist, conversation expert, etc) judge",Authors judging,Some sort of prompted AI doing the judging,Saying something objectively wrong/harmful becuase the user wants it to be so,"The LLM choosing something that isn't objectively wrong, but siding towards the version that it believes user would want",Fawning or overly positive language,Getting the LLM to change opinions/stance/viewpoint to please/mirror user,LLM failing to push back or challenge user or just going along with user's suggestion despite potential problems,Just measuing sycophancy directly with no impact,Measuring how users feel/react in some way,Measuring something about how users behave while/after interacting with sycophantic LLMS,Some measure of how sycophantic LLMs perform on some task,Some measure of how well the user is able to accomplish a task with sycophantic/non-sycophantic agents
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11449950,Too Positive to Be True? Sentiment Analysis of AI-Guided vs. Human-Led Debriefings in Virtual Reality Counseling Training,10.1109/AIxVR67263.2026.00026, ,,,X,,,X,,X,,,X,,
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10825538,Mitigating Sycophancy in Large Language Models via Direct Preference Optimization,10.1109/BigData62323.2024.10825538, ,,,X,,,,X,X,,,,X,
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11460702,Towards Self-Evaluation of Sycophantic Hallucinations in Mathematical Reasoning,10.1109/ICASSP55912.2026.11460702, ,,,X,X,,,X,X,,,,X,
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10820709,SciTrust: Evaluating the Trustworthiness of Large Language Models for Science,10.1109/SCW63240.2024.00017, ,,X,X,X,,,,,,,,X,
+https://doi.org/10.1145/1518701.1519021,I'm sorry,10.1145/1518701.1519021, ,,,,,,,,X,,X,X,,
+https://doi.org/10.1145/3660650.3660656,Faceless Adversary,10.1145/3660650.3660656, ,X,,,,,X,,X,X,,,,
+https://doi.org/10.1145/3663547.3746319,Probing the Gaps in ChatGPT's Live Video Chat for Real-World Assistance for People who are Blind or Visually Impaired,10.1145/3663547.3746319, ,,X,,,,,,X,,X,X,,
+https://doi.org/10.1145/3703155,A Survey on Hallucination in Large Language Models: Principles,10.1145/3703155, ,X,,,X,,,,X,,,,X,
+https://doi.org/10.1145/3706599.3719976,Exploring Older Adults Personality Preferences for LLM-powered Conversational Companions,10.1145/3706599.3719976, ,,,,,X,,,X,,X,,,
+https://doi.org/10.1145/3715275.3732039,Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers.,10.1145/3715275.3732039, ,X,,X,,,,,X,,,,X,
+https://doi.org/10.1145/3717511.3747073,Interactive Social Agent Behaviors of Politeness and Compromise in Collaborative Decision-making,10.1145/3717511.3747073, ,,,,,X,,,X,,,,,X
+https://doi.org/10.1145/3719160.3736618,Navigating the Fog: How University Students Recalibrate Sensemaking Practices to Address Plausible Falsehoods in LLM Outputs,10.1145/3719160.3736618, ,,,,,,,X,,,X,X,,
+https://doi.org/10.1145/3742413.3789120,Neural Transparency: Mechanistic Interpretability Interfaces for Anticipating Model Behaviors for Personalized AI,10.1145/3742413.3789120, ,,,X,,,,,X,,,X,,X
+https://doi.org/10.1145/3744169.3744194,Reading the Praise/Prompt Machine: An Interface Criticism Approach to ChatGPT,10.1145/3744169.3744194, ,,X,,,,X,,X,X,,,,
+https://doi.org/10.1145/3746027.3755778,Evaluating and Mitigating Sycophancy in Large Vision-Language Models,10.1145/3746027.3755778, ,,X,,X,,,X,,,,,X,
+https://doi.org/10.1145/3772318.3790385,Understanding Compliance and Conversion Dynamics in Multi-Agent Collectives,10.1145/3772318.3790385, ,,,,,,,X,X,,X,X,,
+https://doi.org/10.1145/3772318.3790934,Does Sycophancy Change Decisions? Effect of LLM Sycophancy on AI-Assisted Decision-Making,10.1145/3772318.3790934, ,,,,,X,X,,,,X,X,,X
+https://doi.org/10.1145/3772318.3791079,Be Friendly,10.1145/3772318.3791079, ,,,,,,X,X,,,X,,,
+https://doi.org/10.1145/3772318.3791149,The Siren Song of LLMs: How Users Perceive and Respond to Dark Patterns in Large Language Models,10.1145/3772318.3791149, ,,,,,X,X,,,,X,X,,
+https://doi.org/10.1145/3772318.3791233,When AI Gives Advice: Evaluating AI and Human Responses to Online Advice-Seeking for Well-Being,10.1145/3772318.3791233, ,X,,,,X,,,,,X,,X,
+https://doi.org/10.1145/3772318.3791300,All Accept,10.1145/3772318.3791300, ,X,,,,X,,,,,,,X,
+https://doi.org/10.1145/3772318.3791365,Invisible Saboteurs: Sycophantic LLMs Mislead Novices in Problem-Solving Tasks,10.1145/3772318.3791365, ,,,,,,,,X,,,,,X
+https://doi.org/10.1145/3772318.3791851,Personal Validation Effect in LLMs: Positive AI Responses Bias Perceptions of Validity,10.1145/3772318.3791851, ,,,,,X,,,,,X,,,
+https://doi.org/10.1145/3772318.3791915,Interaction Context Often Increases Sycophancy in LLMs,10.1145/3772318.3791915, ,,,,,X,,,,X,,,,
+https://doi.org/10.1145/3772363.3798705,When AI Agrees,10.1145/3772363.3798705, ,,,,,X,,,,,X,,,
+https://doi.org/10.1145/3772363.3799334,Maintaining Stable Personas? Examining Temporal Stability in LLM-Based Human Simulation,10.1145/3772363.3799334, ,,X,,,,,,X,,,,X,
+https://doi.org/10.1145/3774904.3792506,Acting Flatterers via LLMs Sycophancy: Combating Clickbait with LLMs Opposing-Stance Reasoning,10.1145/3774904.3792506, ,,,X,,X,,X,,,,,X,
+https://doi.org/10.1145/3776734.3794532,Robotic Sycophancy: A Scoping Review,10.1145/3776734.3794532, ,,X,,,X,X,,X,X,,,,
+https://doi.org/10.1145/3786304.3787879,Confirmation,10.1145/3786304.3787879, ,,X,,,X,,,,X,,,,
+https://doi.org/10.1145/3786335.3813137,The Cost of Consensus: Isolated Self-Correction Prevails Over Unguided Homogeneous Multi-Agent Debate,10.1145/3786335.3813137, ,,X,,,,,X,,,,,X,
+https://doi.org/10.1145/3788646.3789536,AI-Assisted Moot Courts: Simulating Justice-Specific Questioning in Oral Arguments,10.1145/3788646.3789536, ,,,X,,X,,,X,,,,X,

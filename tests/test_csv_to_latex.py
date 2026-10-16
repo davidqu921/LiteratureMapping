@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 from zipfile import ZipFile
 
-from csv_to_latex import ROOT, generate, read_map, tex
+from scripts.csv_to_latex import ROOT, generate, read_map, tex
 
 
 class MapTests(unittest.TestCase):
@@ -51,7 +51,7 @@ class MapTests(unittest.TestCase):
 
     def test_sample_keeps_previously_dropped_attribute(self):
         config = json.loads((ROOT / "configs" / "sample.json").read_text())
-        names, groups, papers, members, _ = read_map(ROOT / "sample_lit_map.csv", config)
+        names, groups, papers, members, _ = read_map(ROOT / "examples" / "sample_lit_map.csv", config)
         self.assertEqual(len(papers), 17)
         self.assertEqual([len(g["columns"]) for g in groups], [7, 4, 5])
         self.assertEqual(names[groups[0]["columns"][-1]], "Accessability")

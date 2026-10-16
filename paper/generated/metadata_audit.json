@@ -1,0 +1,9 @@
+{
+  "records": 31,
+  "unique_normalized_dois": 31,
+  "unique_crossref_titles": 31,
+  "exact_title_matches": 23,
+  "truncated_prefix_titles": 8,
+  "empirical_full_text_audit_n": 3,
+  "caution": "Author versions are linked by title/authors and identifiers; publisher PDFs were unavailable for the three primary studies. Full-text verification was targeted, not corpus-wide."
+}

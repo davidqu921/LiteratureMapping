@@ -1,0 +1,127 @@
+[
+  {
+    "name": "workshop.html",
+    "url": "https://intelligence-symbiosis.net/en/events/aaai-2027-workshop",
+    "retrieved_utc": "2026-10-14T04:26:45.154071+00:00",
+    "final_url": "https://intelligence-symbiosis.net/en/events/aaai-2027-workshop",
+    "sha256": "612490760407c791671aa8b1b45dae867dc47ac7c35cece396f0b042d41643ef",
+    "bytes": 311050,
+    "status": "downloaded"
+  },
+  {
+    "name": "aaai_instructions.html",
+    "url": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/",
+    "retrieved_utc": "2026-10-14T04:26:47.120920+00:00",
+    "final_url": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/",
+    "sha256": "9eb79e7eade95f47b0a1b5512f69a5659be31a264b08a3679e5f0a863a26d228",
+    "bytes": 208630,
+    "status": "downloaded"
+  },
+  {
+    "name": "taxonomy.pdf",
+    "url": "https://arxiv.org/pdf/2605.21778v1",
+    "retrieved_utc": "2026-10-14T04:26:48.387923+00:00",
+    "final_url": "https://arxiv.org/pdf/2605.21778v1",
+    "sha256": "f273183b42a391a62ff646a2decb83639ea3fa84f08a5ef9f44a8d0b99e4af4f",
+    "bytes": 1361968,
+    "status": "downloaded"
+  },
+  {
+    "name": "friendly.pdf",
+    "url": "https://arxiv.org/pdf/2502.10844v2",
+    "retrieved_utc": "2026-10-14T04:26:49.769007+00:00",
+    "final_url": "https://arxiv.org/pdf/2502.10844v2",
+    "sha256": "0ab0b5f0474b3eeb8c661ecf8d0a61c2a74d658161b60fd993ca296924ad53a4",
+    "bytes": 1331304,
+    "status": "downloaded"
+  },
+  {
+    "name": "advice.pdf",
+    "url": "https://arxiv.org/pdf/2512.08937v1",
+    "retrieved_utc": "2026-10-14T04:26:51.201205+00:00",
+    "final_url": "https://arxiv.org/pdf/2512.08937v1",
+    "sha256": "830ece9d9437688138ae71dc44564b9334153262e6ed5b378b5c3beac996a4b2",
+    "bytes": 5427657,
+    "status": "downloaded"
+  },
+  {
+    "name": "saboteurs.pdf",
+    "url": "https://arxiv.org/pdf/2510.03667",
+    "retrieved_utc": "2026-10-14T04:26:53.246539+00:00",
+    "final_url": "https://arxiv.org/pdf/2510.03667",
+    "sha256": "040f7a5c17424015ec00cec86ec9a0c11f18c7baea884626a893c277d02bc6d5",
+    "bytes": 2565691,
+    "status": "downloaded"
+  },
+  {
+    "name": "decisions_publisher.pdf",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3772318.3790934",
+    "retrieved_utc": "2026-10-14T04:26:54.676775+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "validation_publisher.pdf",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3772318.3791851",
+    "retrieved_utc": "2026-10-14T04:26:55.765061+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "polarization_publisher.pdf",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3772363.3798705",
+    "retrieved_utc": "2026-10-14T04:26:56.823664+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "friendly_publisher.pdf",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3772318.3791079",
+    "retrieved_utc": "2026-10-14T04:26:57.906187+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "advice_publisher.pdf",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3772318.3791233",
+    "retrieved_utc": "2026-10-14T04:26:59.055555+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "friendly_v3.pdf",
+    "url": "https://arxiv.org/pdf/2502.10844v3",
+    "retrieved_utc": "2026-10-14T04:27:52.514804+00:00",
+    "final_url": "https://arxiv.org/pdf/2502.10844v3",
+    "sha256": "ed5b8d558ec5b874e21775e433de8aa493203a1ccb8e7ea4f57cfea84ffbacca",
+    "bytes": 1417602,
+    "status": "downloaded"
+  },
+  {
+    "name": "advice_v2.pdf",
+    "url": "https://arxiv.org/pdf/2512.08937v2",
+    "retrieved_utc": "2026-10-14T04:27:53.845294+00:00",
+    "final_url": "https://arxiv.org/pdf/2512.08937v2",
+    "sha256": "79917088b364693f2d6e0cc115aadc18a0ca00817adea75036a29fa2f272f6dc",
+    "bytes": 5336651,
+    "status": "downloaded"
+  },
+  {
+    "name": "hallucination_survey.pdf",
+    "url": "https://arxiv.org/pdf/2311.05232",
+    "retrieved_utc": "2026-10-14T04:27:55.906057+00:00",
+    "final_url": "https://arxiv.org/pdf/2311.05232",
+    "sha256": "c0505f6ebb341232c5d1824ba50f520121a4095c38ab2c2877286d5007479502",
+    "bytes": 1601655,
+    "status": "downloaded"
+  },
+  {
+    "name": "author_kit_official.zip",
+    "url": "https://aaai.org/authorkit27/",
+    "retrieved_utc": "2026-10-14T04:38:41.174204+00:00",
+    "final_url": "https://aaai.org/wp-content/uploads/2026/05/AuthorKit27.zip",
+    "sha256": "e28c6ac9bc6eb3b4e2d849547d2cefb5162610ee39d0a12e0dc62d1126b44a7d",
+    "bytes": 5495535,
+    "status": "downloaded"
+  }
+]

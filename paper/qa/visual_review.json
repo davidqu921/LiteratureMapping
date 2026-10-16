@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-10-14",
+  "pdf_sha256": "8e261a21963866f686847f11f1d4cc9c4d46cde50f4018cda936bb475bd197f2",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "observations": [
+    "Main Figure 1 readable at normal 10-pt figure text",
+    "Heatmap on page 3; no duplicate cross-tabulation",
+    "One summary table plus one vector heatmap in main text",
+    "No clipped content or overlapping text",
+    "All six citations rendered",
+    "Both companion vector heatmaps inspected"
+  ],
+  "note": "Final caption shortened; pages 3 and 4 visually rechecked after recompile."
+}

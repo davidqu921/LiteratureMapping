@@ -1,0 +1,9 @@
+{
+  "source_archive": "overleaf_source.zip",
+  "files": 23,
+  "independent_extraction_build": "PASS",
+  "pdf_pages": 4,
+  "page_text_matches_main": true,
+  "network_required_for_build": false,
+  "bundled_vector_figures": 3
+}

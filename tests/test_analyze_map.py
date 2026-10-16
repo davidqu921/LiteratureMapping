@@ -3,8 +3,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from analyze_map import analyze
-from csv_to_latex import ROOT
+from scripts.analyze_map import analyze
+from scripts.csv_to_latex import ROOT
 
 
 class FindingsTests(unittest.TestCase):

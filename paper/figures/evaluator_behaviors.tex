@@ -1,0 +1,18 @@
+\documentclass[10pt,border=0.5pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage[table]{xcolor}
+\usepackage{tabularx,array}
+\hyphenation{hal-lu-ci-na-tion ob-se-qui-ous-ness per-for-mance}
+\begin{document}
+\begin{minipage}{502pt}
+\renewcommand{\arraystretch}{1.45}
+\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}p{0.29\linewidth}|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Evaluator} & \hspace{0pt}\textbf{Hallucination agreement} & \hspace{0pt}\textbf{Bias agreement} & \hspace{0pt}\textbf{Obsequiousness} & \hspace{0pt}\textbf{Stance change} & \hspace{0pt}\textbf{Failure to challenge / getting along} \\ \hline
+Human: specialist ($n=5$) & \cellcolor{purple!3}1 & \cellcolor{purple!6}2 & \cellcolor{purple!3}1 & \cellcolor{purple!0}0 & \cellcolor{purple!10}3 \\ \hline
+Human: authors ($n=8$) & \cellcolor{purple!6}2 & \cellcolor{purple!6}2 & \cellcolor{purple!6}2 & \cellcolor{purple!6}2 & \cellcolor{purple!13}4 \\ \hline
+AI: prompted ($n=8$) & \cellcolor{purple!6}2 & \cellcolor{purple!6}2 & \cellcolor{purple!3}1 & \cellcolor{purple!10}3 & \cellcolor{purple!19}6 \\ \hline
+\end{tabularx}
+\end{minipage}
+\end{document}
